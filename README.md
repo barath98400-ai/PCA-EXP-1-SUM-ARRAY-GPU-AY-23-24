@@ -29,7 +29,7 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
-
+```c
 !pip install nvcc4jupyter
 
 %reload_ext nvcc4jupyter
@@ -251,6 +251,7 @@ int main(int argc, char **argv)
 
     return(0);
 }
+```
 
 
 ## OUTPUT:
